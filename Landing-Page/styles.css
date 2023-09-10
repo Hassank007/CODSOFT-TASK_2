@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo  {
+    max-height: 40px;
+    margin-left:10px ; /* Adjust the height as needed */
+}
+
+.navbar__menu {
+    list-style: none;
+    padding: 0;
+    margin: 10;
+    display: flex;
+    align-items: center;
+    margin-right:70px 
+}
+
+.navbar__item {
+    margin: 0 10px;
+    margin-right:30px ;
+}
+
+.navbar__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+    margin-right:50px
+}
+
+.navbar__link:hover {
+    color: #007bff;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 150px 0;
+    background-image: url('background.jpg'); /* Add your background image path here */
+    background-size: cover;
+    color: #fff;
+}
+
+.hero__title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero__description {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.about-us {
+    background-color: #f8f8f8;
+    padding: 100px 0;
+}
+
+.about-us__content {
+    flex: 1;
+}
+
+.about-us__title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us__description {
+    font-size: 18px;
+    color: #333;
+}
+
+.about-us__image img {
+    max-width: 50%;
+    height: auto;
+}
+
+.features {
+    background-color: #fff;
+    padding: 50px 0;
+   
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+    box-sizing: border-box #333;
+}
+
+.feature__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.feature__description {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Optional: Add hover effect to features */
+.feature:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
